@@ -2,8 +2,6 @@ import React from 'react';
 import { useLocation } from "react-router-dom";
 import { Asteroid } from './AsteroidForm';
 
-export interface AsteroidDataProps {
-}
 export interface AsteroidDatas {
     astroidData :  Asteroid
 }
