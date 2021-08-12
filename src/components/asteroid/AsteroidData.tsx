@@ -8,7 +8,7 @@ export interface AsteroidDatas {
     astroidData :  Asteroid
 }
  
-const AsteroidData: React.SFC = () => {
+const AsteroidData: React.FC = () => {
     const location = useLocation<AsteroidDatas>();
     console.log(location.state.astroidData.name);
     let is_potentially_hazardous_asteroid;
